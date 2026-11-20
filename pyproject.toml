@@ -1,0 +1,21 @@
+[project]
+name = "bus-sense"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Fardeen", email = "frdn.khnn@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "huggingface-hub>=2.4.0",
+    "opencv-python>=5.1.0.95",
+    "ultralytics>=8.4.215",
+]
+
+[project.scripts]
+bus-sense = "bus_sense:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
