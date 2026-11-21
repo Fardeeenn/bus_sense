@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "huggingface-hub>=2.4.0",
+    "lap>=0.5.14",
     "opencv-python>=5.1.0.95",
     "ultralytics>=8.4.215",
 ]
